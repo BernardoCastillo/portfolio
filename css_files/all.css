@@ -1,0 +1,284 @@
+/* CSS applying to all/multiple start*/
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: darkslategray;
+    line-height: 1.6;
+}
+.name{
+    font-family: "Sour Gummy", sans-serif;
+    }
+h1{
+    text-align: center;
+}
+header{
+    background-color: black;
+    color: #fff;
+    padding: 1rem;
+    border-color: white;
+    border-style: solid;
+    border-width: 0px 0px 2px 0px;
+    width: 100%;
+    top: 0;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.name{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.links{
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+}
+.links a{
+    color: #fff;
+    text-decoration: none;
+    transition-property: color;
+    transition-duration: 2s;
+}
+.links a:hover{
+    color: forestgreen;
+}
+footer{
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    border-color: white;
+    border-style: solid;
+    border-width: 2px 0px 0px 0px;
+}
+
+/* CSS applying to all/multiple end*/
+
+
+/* Homepage CSS Start */
+
+.h-items h3{
+    color: forestgreen;
+    font-size: 1.5em;
+}
+.h-item{
+    background-color: darkslateblue;
+    padding: 20px;
+    border-radius: 1.5em;
+    margin: 20px;
+    color: white;
+    border: 2px solid black;
+}
+.h-title{
+    background-color: darkslateblue;
+    border-radius: 1.5em;
+    padding: 5px;
+    margin: 15px 400px;
+    color: forestgreen;
+    border: 2px solid black;
+}
+
+/* Homepage CSS End */
+
+
+/* Projects CSS */
+
+.p-title{
+    background-color: darkslateblue;
+    border: 2px solid black;
+    border-radius: 1.5em;
+    margin: 15px 500px 5px 500px;
+    color: forestgreen;
+}
+.p-top-row{
+    display: flex;
+    padding: 10px;
+}
+.p-bottom-row{
+    display: flex;
+    padding: 10px;
+}
+.p-img{
+    border: 2px solid black;
+    transition-property: opacity;
+    transition-duration: 2s;
+}
+.p-img:hover{
+    opacity: 0.4;
+}
+.project-item{
+    background-color: darkslateblue;
+    padding: 20px;
+    width: 250px;
+    border: 2px solid black;
+}
+
+/* Resume CSS Start */
+
+.r-header{
+    background-color: black;
+    color: #fff;
+    padding: 1rem;
+    border-color: rgb(134, 134, 134);
+    border-style: solid;
+    border-width: 0px 0px 2px 0px;
+    width: 100%;
+    top: 0;
+    position: fixed;
+}
+.r-footer{
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    border-color: rgb(134, 134, 134);
+    border-style: solid;
+    border-width: 2px 0px 0px 0px;
+}
+.r-page{
+    width: 50%;
+    background-color: #f4f4f4;
+    margin-bottom: 75px;
+    margin-top: 100px;
+    border: 1px solid gray;
+    padding-bottom: 100px;
+    box-shadow: 10px 15px 50px rgba(0, 0, 0, 0.326);
+}
+.r-h1{
+    font-size: 26px;
+    margin-top: 15px;
+}
+.r-link{
+    color: black;
+}
+.resume p{
+    font-size: 12px;
+    padding: 0px 100px 0px 100px;
+}
+.resume li{
+    font-size: 12px;
+    list-style-type: none;
+    padding: 0px 100px 0px 100px;
+}
+.resume h5{
+    font-size: 16px;
+}
+.resume h6{
+    font-size: 12px;
+}
+.r-center{
+    text-align: center;
+}
+.resume a{
+    text-align: center;
+}
+
+.r-flexed{
+    display: flex;
+    text-decoration: underline;
+}
+
+/* Resume CSS End */
+
+
+/* Contact CSS Start */
+
+.c-center{
+    display: flex;
+}
+.c-right{
+    background-color: black;
+    width: 45%;
+    padding: 10px;
+    border: 2px solid gray;
+    border-radius: 1.5em;
+    margin-top: 15px;
+    box-shadow: 10px 15px 50px rgba(0, 0, 0, 0.326);
+}
+.c-left{
+    background-color: black;
+    width: 45%;
+    padding: 10px;
+    border: 2px solid gray;
+    border-radius: 1.5em;
+    margin-top: 15px;
+    box-shadow: 10px 15px 50px rgba(0, 0, 0, 0.326);
+}
+.c-right .c-input{
+    width: 100%;
+    border-radius: 1.5em;
+    padding: 2px;
+    background-color: darkslateblue;
+    border: 2px solid gray;
+    color: white;
+}
+.c-right-item{
+    background-color: darkslateblue;
+    color: forestgreen;
+    margin: 10px;
+    border-radius: 1.5em;
+    padding: 9px;
+    border: 2px solid gray;
+}
+.c-left-item{
+    background-color: darkslateblue;
+    color: forestgreen;
+    margin: 10px;
+    border-radius: 1.5em;
+    padding: 9px;
+    border: 2px solid gray;
+}
+.c-left iframe{
+    padding: 8px 1px 1px 1px;
+    height: 210px;
+    border-radius: 1.5em;
+}
+.c-submit{
+    width: 100%;
+    padding: 10px;
+    border-radius: 1.5em;
+    border: 2px solid gray;
+    color: forestgreen;
+    background-color: darkslateblue;
+    font-weight: bolder;
+    font-size: 1.5em;
+    transition-property: background-color color;
+    transition-duration: 1s;
+}
+.c-submit:hover{
+    background-color: rgb(139, 121, 255);
+    color: white;
+    cursor: pointer;
+}
+.c-title{
+    text-align: center;
+}
+.c-textarea{
+    border-radius: 1.5em;
+    padding: 9px;
+    color: white;
+    background-color: darkslateblue;
+    border: 2px solid gray;
+}
+.c-link{
+    color: white;
+}
+.c-white{
+    color: white;
+}
+
+/* Contact CSS End */
